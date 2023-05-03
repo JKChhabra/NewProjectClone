@@ -1,0 +1,58 @@
+name: Newproject
+description: ''
+version: 0.0.1
+author: jagmeet@prophecy.io
+language: python
+buildSystem: ''
+buildSystemDetails:
+  artefactID: newproject
+  parentArtefactID: jagmeetprophecy.io_team
+  buildSystem: wheel
+  author: null
+  createdAt: '2023-05-02 10:05:00'
+  modifiedAt: '2023-05-02 10:05:00'
+pipelines:
+  pipelines/test:
+    name: test
+    description: ''
+    author: jagmeet@prophecy.io
+    mode: batch
+    artefactID: ''
+    language: python
+    createdAt: '2023-05-02 10:05:00'
+    modifiedAt: '2023-05-03 11:07:37'
+    datasets:
+      inputs:
+      - gitUri=http://gitserver:3000/iZXmvoXb_team_3448/iZXmvoXb_project_5802.git&subPath=&tag=HelloWorld/v1.1&projectSubscriptionProjectId=5802&path=datasets/customer_totals
+      outputs: []
+    subgraphs: []
+    dependencies: {}
+datasets: {}
+templates: {}
+jobs: {}
+functions:
+  author: null
+  createdAt: '2023-05-02 10:05:00'
+  modifiedAt: '2023-05-02 10:05:00'
+  gems: {}
+  udfs: {}
+  udafs: {}
+  expressions: {}
+subgraphs: {}
+sqlModels: {}
+sqlMacros: {}
+sqlSeeds: {}
+sqlSources: {}
+sqlUnreferencedSources: {}
+sqlPipeline: null
+dependencies: '[]'
+projectDependencies:
+  '5802':
+    projectUID: 5802
+    projectName: HelloWorld
+    repositoryPath: gitUri=http://gitserver:3000/iZXmvoXb_team_3448/iZXmvoXb_project_5802.git&subPath=
+    version: HelloWorld/v1.1
+    author: null
+    createdAt: '2023-05-02 10:04:51'
+    modifiedAt: '2023-05-02 10:04:51'
+pipelineConfigurations: {}

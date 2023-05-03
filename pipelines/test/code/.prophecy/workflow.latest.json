@@ -1,0 +1,89 @@
+{
+  "metainfo" : {
+    "id" : "1",
+    "language" : "python",
+    "fabricId" : "1817",
+    "frontEndLanguage" : "sql",
+    "mode" : "batch",
+    "udfs" : {
+      "language" : "python",
+      "udfs" : [ ],
+      "functionPackageName" : "jagmeetprophecy.io_team.newproject.functions",
+      "sharedFunctionPackageNames" : [ "jagmeetprophecy.io_team.helloworld.functions" ]
+    },
+    "udafs" : {
+      "language" : "python",
+      "code" : ""
+    },
+    "configuration" : {
+      "common" : {
+        "type" : "record",
+        "fields" : [ ]
+      },
+      "oldCommon" : {
+        "type" : "record",
+        "fields" : [ ]
+      },
+      "fabrics" : { },
+      "instances" : { },
+      "selected" : "default",
+      "nonEditable" : [ ],
+      "isSubscribedPipelineWithPipelineConfigs" : false
+    },
+    "sparkConf" : [ ],
+    "hadoopConf" : [ ],
+    "codeMode" : "sparse",
+    "buildSystem" : "maven",
+    "externalDependencies" : [ ],
+    "dependentProjectExternalDependencies" : [ {
+      "projectUID" : "5802",
+      "projectName" : "HelloWorld",
+      "externalDependencies" : [ ]
+    } ],
+    "isImported" : false,
+    "interimMode" : "Full",
+    "interimModeEnabled" : true,
+    "visualCodeInterimMode" : "Disabled",
+    "recordsLimit" : {
+      "enabled" : false,
+      "value" : 1000
+    },
+    "topLevelPackage" : "test",
+    "configurationVersion" : "v1"
+  },
+  "connections" : [ ],
+  "processes" : {
+    "ewhvc5kZYQ4c39YGioyQI$$yb-dSm149EOjGtIjQGc5K" : {
+      "id" : "ewhvc5kZYQ4c39YGioyQI$$yb-dSm149EOjGtIjQGc5K",
+      "component" : "Source",
+      "metadata" : {
+        "label" : "customer_totals",
+        "slug" : "customer_totals",
+        "x" : 300,
+        "y" : 520,
+        "phase" : 0,
+        "cache" : false,
+        "detailedStats" : false,
+        "isImported" : false
+      },
+      "ports" : {
+        "inputs" : [ ],
+        "outputs" : [ {
+          "id" : "Rym5_si5p1MdW_7shmMO7$$qlXmfGMcJhnB3cEB0g1D2",
+          "slug" : "out"
+        } ],
+        "selectedInputFields" : [ ],
+        "isCustomOutputSchema" : false
+      },
+      "properties" : {
+        "datasetId" : "gitUri=http://gitserver:3000/iZXmvoXb_team_3448/iZXmvoXb_project_5802.git&subPath=&tag=HelloWorld/v1.1&projectSubscriptionProjectId=5802&path=datasets/customer_totals"
+      }
+    }
+  },
+  "ports" : {
+    "inputs" : [ ],
+    "outputs" : [ ],
+    "selectedInputFields" : [ ],
+    "isCustomOutputSchema" : false
+  }
+}
